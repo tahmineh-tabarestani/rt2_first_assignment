@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/ros2_main/src
+CMAKE_SOURCE_DIR = /root/ros2_action/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/ros2_main/build
+CMAKE_BINARY_DIR = /root/ros2_action/build
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /root/ros2_main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros2_main/src /root/ros2_main/src /root/ros2_main/build /root/ros2_main/build /root/ros2_main/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ros2_action/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros2_action/src /root/ros2_action/src /root/ros2_action/build /root/ros2_action/build /root/ros2_action/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 
