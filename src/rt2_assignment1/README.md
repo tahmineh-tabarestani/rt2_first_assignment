@@ -6,3 +6,8 @@ To launch the node, please run:
 roslaunch rt2_assignment1 sim.launch
 ```
 
+In another terminal 
+```
+jupyter noteboook--allow-root
+```
+
