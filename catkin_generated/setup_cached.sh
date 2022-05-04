@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/root/ros2_jup/devel:$CMAKE_PREFIX_PATH"
-export PWD='/root/ros2_jup/build'
-export ROSLISP_PACKAGE_DIRECTORIES="/root/ros2_jup/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/root/ros2_jup/src:$ROS_PACKAGE_PATH"
+export PWD='/root/rt2-ros1/build'
